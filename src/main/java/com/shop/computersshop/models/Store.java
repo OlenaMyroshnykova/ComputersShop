@@ -21,7 +21,6 @@ public class Store {
     private List<Computer> computers;
     
     public Store() {
-
     }
     
     public Store(Long id, String name, String taxId, StoreOwner owner) {

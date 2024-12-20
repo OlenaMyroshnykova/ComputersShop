@@ -15,6 +15,9 @@ public class Brand {
     @OneToMany(mappedBy = "brand", cascade = CascadeType.ALL)
     private List<Computer> computers;
 
+    public Brand() {
+    }
+
     public Long getId() {
         return id;
     }
