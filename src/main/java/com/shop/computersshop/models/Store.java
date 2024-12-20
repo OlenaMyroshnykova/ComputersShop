@@ -19,7 +19,11 @@ public class Store {
 
     @OneToMany(mappedBy = "store", cascade = CascadeType.ALL)
     private List<Computer> computers;
+    
+    public Store() {
 
+    }
+    
     public Store(Long id, String name, String taxId, StoreOwner owner) {
         this.id = id;
         this.name = name;

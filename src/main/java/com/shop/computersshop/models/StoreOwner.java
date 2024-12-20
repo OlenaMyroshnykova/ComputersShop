@@ -15,6 +15,9 @@ public class StoreOwner {
     @OneToMany(mappedBy = "owner", cascade = CascadeType.ALL)
     private List<Store> stores;
 
+    public StoreOwner() {
+    }
+
     public StoreOwner(Long id, String name) {
         this.id = id;
         this.name = name;

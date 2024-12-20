@@ -22,6 +22,8 @@ public class Computer {
     @JoinColumn(name = "store_id", nullable = false)
     private Store store;
 
+    public Computer() {
+    }
 
     public Computer(Long id, Brand brand, int memory, String processor, String operatingSystem, double price,
             Store store) {
