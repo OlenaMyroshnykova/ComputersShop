@@ -7,5 +7,5 @@ import java.util.List;
 
 @NoRepositoryBean
 public interface GenericRepository<T, ID> extends JpaRepository<T, ID> {
-    List<T> findByNameContainingIgnoreCase(String name);
+    //List<T> findByNameContainingIgnoreCase(String name);
 }

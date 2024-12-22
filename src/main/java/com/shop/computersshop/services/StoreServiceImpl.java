@@ -3,7 +3,7 @@ package com.shop.computersshop.services;
 import com.shop.computersshop.dtos.StoreDTO;
 import com.shop.computersshop.models.Store;
 import com.shop.computersshop.repositories.StoreRepository;
-//import com.shop.computersshop.services.StoreService;
+import com.shop.computersshop.services.StoreService;
 import org.springframework.stereotype.Service;
 
 @Service
